@@ -187,7 +187,7 @@ plt.tight_layout()
 plt.show()
 
 
-# Select features for prediction, now including neighbourhood
+# Select features for prediction
 features = ['workclass', 'hours-per-week', 'education-num', "occupation", "marital-status", "sex", "birth_year", "relationship", "race"]
 
 # Create a new dataframe with only the selected features and price
